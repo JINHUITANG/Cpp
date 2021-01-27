@@ -15,7 +15,6 @@ int main()
 	cout <<("my happy Cpp \n");
 	printf("11111")
 	cin.get();    //Micro C 老问题了
-
 	return  0;
 }
 
