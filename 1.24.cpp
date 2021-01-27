@@ -1,40 +1,40 @@
 /*****************************
-*ÎÄ¼şÃû£º1.22.cpp
-*´´½¨ÈË£ºÌÆ½ğ»Ô
-*ÈÕÆÚ£º2021.1.22
-*ÃèÊö£º±äÁ¿ÀàĞÍ
+*æ–‡ä»¶åï¼š1.22.cpp
+*åˆ›å»ºäººï¼štjh
+*æ—¥æœŸï¼š2021.1.22
+*æè¿°ï¼šå˜é‡ç±»å‹
 ******************************/
 #include<iostream>
 #include<iomanip>
 using namespace std;
-//ºê¶¨Òå #define ±äÁ¿  Öµ  ---¾¡Á¿²»ÒªÓÃÀ´¶¨Òå·ûºÅ³£Á¿
+//å®å®šä¹‰ #define å˜é‡  å€¼  ---å°½é‡ä¸è¦ç”¨æ¥å®šä¹‰ç¬¦å·å¸¸é‡
 
 int main()
 {
 	const int a = 911;  
 
-	cout << "int ÀàĞÍ±äÁ¿a="
+	cout << "int ç±»å‹å˜é‡a="
 		 << a
-		 << " int ÀàĞÍÕ¼ÓÃ" <<sizeof(a) << "¸öbyte" << endl; 
+		 << " int ç±»å‹å ç”¨" <<sizeof(a) << "ä¸ªbyte" << endl; 
 
-	float tub = 10.0 / 3;    //Çø±ğ10/3
-	cout << "tub=" << tub;  //Ä¬ÈÏ6Î»ÓĞĞ§Êı×Ö
-	cout << " float ÀàĞÍÕ¼ÓÃ" << sizeof(float) << "¸öbyte" << endl;
+	float tub = 10.0 / 3;    //åŒºåˆ«10/3
+	cout << "tub=" << tub;  //é»˜è®¤6ä½æœ‰æ•ˆæ•°å­—
+	cout << " float ç±»å‹å ç”¨" << sizeof(float) << "ä¸ªbyte" << endl;
 
-	double ee = 3.1415926e4;    //¿ÆÑ§¼ÆÊı·¨
-	cout << "double ÀàĞÍ±äÁ¿ee=" << ee << endl;
+	double ee = 3.1415926e4;    //ç§‘å­¦è®¡æ•°æ³•
+	cout << "double ç±»å‹å˜é‡ee=" << ee << endl;
 
 	char ch = 'T';
-	cout << "char ÀàĞÍ±äÁ¿ch="
+	cout << "char ç±»å‹å˜é‡ch="
 		<< ch
-		<< " char ÀàĞÍÕ¼ÓÃ" << sizeof(char) << "¸öbyte" << endl;
-	cout << "char ÀàĞÍ±äÁ¿chµÄASCIIÂëÎª " << (int)ch << endl;
+		<< " char ç±»å‹å ç”¨" << sizeof(char) << "ä¸ªbyte" << endl;
+	cout << "char ç±»å‹å˜é‡chçš„ASCIIç ä¸º " << (int)ch << endl;
 
 	cin.get();
 
 	return 0;
 }
 /*
-cout<<fixed<<setprecision(3); ---ÉèÖÃĞ¡ÊıµãºóÎ»Êı
-cout<<"|"<<setw(3)<<000<<"|"<<endl;----ÉèÖÃ¿í¶È
+cout<<fixed<<setprecision(3); ---è®¾ç½®å°æ•°ç‚¹åä½æ•°
+cout<<"|"<<setw(3)<<000<<"|"<<endl;----è®¾ç½®å®½åº¦
 */
