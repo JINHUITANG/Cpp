@@ -31,7 +31,6 @@ int main()
 	cout << "char 类型变量ch的ASCII码为 " << (int)ch << endl;
 
 	cin.get();
-
 	return 0;
 }
 /*
